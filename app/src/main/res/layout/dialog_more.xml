@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_f3f3f3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:background="@color/grey_f3f3f3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/deepskyblue">
+
+            <ImageView
+                android:layout_width="91dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/ih_touxiang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="70dp"
+                android:paddingRight="20dp"
+                android:text="Single Dog"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dialog_btn_history"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:backgroundTint="@color/grey_f3f3f3"
+            android:drawableLeft="@mipmap/it_jilu"
+            android:paddingLeft="30dp"
+            android:paddingRight="110dp"
+            android:text="@string/history_record"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dialog_btn_account"
+            android:backgroundTint="@color/grey_f3f3f3"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/it_xiqing"
+            android:paddingLeft="30dp"
+            android:paddingRight="110dp"
+            android:text="@string/account_info"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/dialog_btn_fenlei"
+            android:backgroundTint="@color/grey_f3f3f3"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/it_fenglei"
+            android:paddingLeft="30dp"
+            android:paddingRight="110dp"
+            android:text="分类管理"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dialog_btn_geren"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:backgroundTint="@color/grey_f3f3f3"
+            android:drawableLeft="@mipmap/it_geren"
+            android:paddingLeft="30dp"
+            android:paddingRight="110dp"
+            android:paddingBottom="2dp"
+            android:text="个人中心"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dialog_btn_shezhi"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:backgroundTint="@color/grey_f3f3f3"
+            android:drawableLeft="@mipmap/it_shezhi"
+            android:paddingLeft="30dp"
+            android:paddingRight="150dp"
+            android:text="@string/setting"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dialog_btn_about"
+            android:backgroundTint="@color/grey_f3f3f3"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableStart="@mipmap/it_guanyu"
+            android:paddingLeft="30dp"
+            android:paddingRight="150dp"
+            android:text="@string/about"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/dialog_more_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginVertical="60dp"
+            android:layout_marginLeft="30dp"
+            android:src="@mipmap/it_back"/>
+    </LinearLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
